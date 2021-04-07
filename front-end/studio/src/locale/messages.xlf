@@ -74,6 +74,13 @@
           <context context-type="linenumber">104</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4884511c25dae499f31e0d9b8b571620a0173fed" datatype="html">
+        <source>Project URL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="64aa9ee3c0e903ad61fc4f4c5fbb9eb1960d4763" datatype="html">
         <source>Server Error Encountered</source>
         <context-group purpose="location">
@@ -184,10 +191,10 @@
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8071716ed4f70c9061c7e4cfd5e193ca55276a27" datatype="html">
+      <trans-unit id="f52dfbdb9889f54bc1d490c7cdf9c2b5a13c76a5" datatype="html">
         <source>
                         It appears you attempted to add or create something that already exists
-                        in BAMs Design.  Instead of adding it again, try finding the resource
+                        in Apicurio Studio.  Instead of adding it again, try finding the resource
                         that is already there and editing it!
                     </source>
         <context-group purpose="location">
@@ -209,9 +216,9 @@
           <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="02c193bb36069b23a1a5e59490dd185a225a2c05" datatype="html">
+      <trans-unit id="e6bc4a02cc027553b4d0c40b7a55ac5b0b738683" datatype="html">
         <source>
-                        We couldn&apos;t reach the BAMs Design server!  Perhaps try reloading this
+                        We couldn&apos;t reach the Apicurio Studio server!  Perhaps try reloading this
                         page in a few minutes?  Maybe check your internet connection?
                     </source>
         <context-group purpose="location">
@@ -401,6 +408,10 @@
           <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="f72626a892b0d49b0ee50ad0220e0deb2eab9ed7" datatype="html">
         <source>APIs found</source>
@@ -518,6 +529,10 @@
           <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
           <context context-type="linenumber">114</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">265</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="67687b9b825aaeb326aeaced60ccba27fe8690a8" datatype="html">
         <source>This will</source>
@@ -532,9 +547,13 @@
           <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
           <context context-type="linenumber">115</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="d8ded8b3c7cad04836c18b0857651ffb433ef5d4" datatype="html">
-        <source>delete the API definition from BAMs Design.  This operation cannot be undone.</source>
+      <trans-unit id="a53662e5313662e21685fa5c7a2a16acabfed7da" datatype="html">
+        <source>delete the API definition from Apicurio Studio.  This operation cannot be undone.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
           <context context-type="linenumber">115</context>
@@ -755,7 +774,267 @@
           <context context-type="sourcefile">app/pages/apis/_components/apis-cards.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
         <note priority="1" from="description">No description available.</note>
+      </trans-unit>
+      <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
+        <source> Loading API information...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab0773fc47b0b928aaf1d29d7b828313c3c26675" datatype="html">
+        <source>Edit...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f3605f5f67ebea0ee16c85e4013e891cb4a21b5" datatype="html">
+        <source>Preview Docs...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d0228b4bc869a6e3d70d3670dfa99a5f35131c01" datatype="html">
+        <source>Share Docs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8eee877f3bc1bf3c25459f29efb87b171fbb8f1e" datatype="html">
+        <source>Collaborate...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e54788b00f86e2b06b0e926b97f6b238dabea7ff" datatype="html">
+        <source>Make a Copy...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45d15fb554ba946ec2b81ce1f54b279a6f7fb97e" datatype="html">
+        <source>Publish...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5894485aa35ed885596e5bf95eab2acd77bd9530" datatype="html">
+        <source>Mock with Microcks...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a82dd1033813aa3b83a568d0519821699c0f9fb" datatype="html">
+        <source>Generate Project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ac01b54e1e4cf7745d11d2ec2cb1705c27fd012" datatype="html">
+        <source> Created on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0ce553f3901d24f75b5461dc25a12fddba6731f" datatype="html">
+        <source> Created by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2bc20d2b6c67f43f44b8da422489637ddc59f7bd" datatype="html">
+        <source>Other Collaborator(s)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3aeb129e89a1b3ebe85f47c446e13faa6d354ec" datatype="html">
+        <source> Edit API</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1ae076a4ea222dc7f62af1c9a3c7e38c20a39de" datatype="html">
+        <source> Preview Documentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="715e02a806d352fe1b5c15133dce50b50a3ab140" datatype="html">
+        <source>Top Contributors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc145865f46786c8d7d135ee0b64932e92cf4c2c" datatype="html">
+        <source> Loading contributors data...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6a3529c58dd11acd9748216b8eb9d3f98cd1d1e" datatype="html">
+        <source> edits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84e877ce2ec93ca66ee2aa8c85c5bb0a94f42217" datatype="html">
+        <source>API Mocking</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a7c330f4ec66d4bbbebeed5a134a2cd87e83bab1" datatype="html">
+        <source> Loading mock information...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f4d38b185cc32a8e10ba18264e5c07e5015c9e7" datatype="html">
+        <source>This API has </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65c627304c170d4cdcf3a011787fb260ca71b7ac" datatype="html">
+        <source>not yet been mocked in Microcks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="006ca4c6daa99bf8cdcdd4894e7d6d3056fcb60b" datatype="html">
+        <source>Mock with Microcks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0107c55988d56fca2a54ab34a26c7bd8be98720" datatype="html">
+        <source>This API is being mocked in </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2124a4681dd9cec34bcda8be8c9c0e7f5c90dfcc" datatype="html">
+        <source>Microcks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc73678c78ca0feb1e3b26e5825b112bb848b751" datatype="html">
+        <source>Mock created on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aee8359dec07e077f2174042dcc24d338e72c16b" datatype="html">
+        <source>Mock created by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44291263e23dc84e37818332587a6b7a26449763" datatype="html">
+        <source>View in Microcks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a600794a33882d268f8d96027d2b9f001f1ae956" datatype="html">
+        <source>Update Mock in Microcks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1adca4ddbe1e4bbcef1178c277a0a096eeb78f0d" datatype="html">
+        <source> Loading API activity...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb5e0fd104dea3b9f8019cd0894d9d0bd87a1c64" datatype="html">
+        <source>Activity Log</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca98710638193518e4fe1302f8977d2db4f2b842" datatype="html">
+        <source>Show More</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="86d90ed229bf3a9f5b564ad081f8971e7fd5bc99" datatype="html">
+        <source>No Activity Found!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89e46c250aea6394c95613e81f28750795e317cb" datatype="html">
+        <source> No changes have been made to this API yet.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="346515fb1e2013dd1da7c378b66cc18517ece091" datatype="html">
+        <source>Do you really want to delete this API?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">262</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3023286aeecc3030ef20785242ad3407a50caee8" datatype="html">
+        <source>This will </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7dd021d7a788e60c4e19cef7340fe0f8ca59e6a2" datatype="html">
+        <source> delete the API definition from Apicurio Studio.  This operation cannot be undone.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
