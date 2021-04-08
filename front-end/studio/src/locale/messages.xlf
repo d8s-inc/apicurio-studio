@@ -784,6 +784,41 @@
         </context-group>
         <note priority="1" from="description">No description available.</note>
       </trans-unit>
+      <trans-unit id="fa84d0c5f3a15ac59d60dc2433d2c7c7b3838dd1" datatype="html">
+        <source>Download API Specification</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ba2fec02b8cc463b9f68d216e7ad99aa2d5a2b0" datatype="html">
+        <source>Make a few choices below and then download the specification.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7722a92a1fc887570b4f4d8a7bb916f067f32028" datatype="html">
+        <source>Format</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0dc2e6fb6d0244d5024e73ede409a45d5b0c8a64" datatype="html">
+        <source>References</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc75033a5238fdc4f462212c847a45ba8018a3fd" datatype="html">
+        <source>Download</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
         <source> Loading API information...</source>
         <context-group purpose="location">
@@ -1185,6 +1220,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
           <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
     </body>
