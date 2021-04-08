@@ -1036,6 +1036,69 @@
           <context context-type="linenumber">266</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="89e084db691c044b194ebb1cd1a1756b26bd2249" datatype="html">
+        <source>Sharing Documentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="998eac4ea3c1c2188942c2aac7f0e992247c8ec6" datatype="html">
+        <source> Loading...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b00bde099641d8902c4f5bcbbf2e79148f54e82" datatype="html">
+        <source>Documentation is not currently being shared.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d0883886893bef71c4f3e24662b4924da0542ab" datatype="html">
+        <source> Click here to enable sharing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eaff3ddd2606b4988d0cc9f8ad3791f3e350a566" datatype="html">
+        <source> Sharing, please wait...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c7e54e6b6348d8d4ab04c11aa587e225a87fb52" datatype="html">
+        <source>Documentation is being shared!  Copy the link below and share it freely.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b81c814b966c50c10b898e1d2a94da41aaa70e0" datatype="html">
+        <source>Link successfully copied to the clipboard!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ab9b2739c97464fe7c928a38041584f827e22db" datatype="html">
+        <source> Disable sharing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4e529ae5ffd73001d1ff4bbdeeb0a72e342e5c8" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
