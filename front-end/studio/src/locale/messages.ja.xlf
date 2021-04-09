@@ -446,6 +446,38 @@
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="a6ecf76f074e2098ee024b6c2586a0475a2d6dd3" datatype="html">
+        <source>Confirm Delete</source>
+        <target>Confirm Delete(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <target>Cancel(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <target>Delete(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
         <source>Name</source>
         <target>Name(TBD)</target>
@@ -466,18 +498,6 @@
           <context context-type="linenumber">14</context>
         </context-group>
         <note priority="1" from="description">Filter by name or tag...</note>
-      </trans-unit>
-      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
-        <source>Delete</source>
-        <target>Delete(TBD)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
-          <context context-type="linenumber">106</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="f72626a892b0d49b0ee50ad0220e0deb2eab9ed7" datatype="html">
         <source>APIs found</source>
