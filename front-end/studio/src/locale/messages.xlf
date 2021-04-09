@@ -316,6 +316,10 @@
           <context context-type="sourcefile">app/pages/apis/import/import.page.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="6282d921b930bd0457c570618a63ac91b63cdc5f" datatype="html">
         <source>View All APIs</source>
@@ -703,6 +707,10 @@
           <context context-type="sourcefile">app/pages/apis/{apiId}/copy/copy.page.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="eb67d0c9b08f244ede992f74ad5e99bea2c9dbe7" datatype="html">
         <source>
@@ -802,6 +810,149 @@
         </context-group>
         <note priority="1" from="description">No description available.</note>
       </trans-unit>
+      <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
+        <source> Loading API information...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="324c7882fe435c80ddb3260070d3ae21eea56e94" datatype="html">
+        <source>
+                    Use this page to publish your API (when it&apos;s ready) to a source control system such as
+                    GitHub, GitLab, or Bitbucket.  You will need to link your Apicurio account to your
+                    source control system for this to work.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82a3b44f5a7817fb27898956e285853821371a7f" datatype="html">
+        <source>Account linking can be done from the </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="484917fa57c8889aeb314cf4256af11abb1e355a" datatype="html">
+        <source>Settings -&gt; Accounts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34667ccb17afe9f6c4bcb950093b10ca4c1689bf" datatype="html">
+        <source> page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebafd91d8f96fa3bccf3c5e63bd056920f0a71f0" datatype="html">
+        <source>Publish API </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3e91986c3385ac94e773a4520233d805452f0d3" datatype="html">
+        <source>Publish To</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b201ba08c511a29f278d7fce7c7a59fd5347a47c" datatype="html">
+        <source>Cannot Publish API</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0593502e211c3f291d6d51668d0b965146d37dcf" datatype="html">
+        <source> You haven&apos;t linked your Apicurio account to a source
+                                    control system.  Do this first from the appropriate </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffde342dc48f0b074d3dbcbb2f665216a2dd3deb" datatype="html">
+        <source>Resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4523701eaef0487614503898100141199498646a" datatype="html">
+        <source>Resource is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1b3672399ea602917bb186c947e3fe91f48174c" datatype="html">
+        <source>Commit Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66b70ce9f5f45fece9d27e49882e937696825683" datatype="html">
+        <source>Publish API</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9470e33be8f9a6614e2f0b3410b9f34b738dcef9" datatype="html">
+        <source> Publishing...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8dcd8b603aa80ab9d60181e40bcb1f5c12e782f" datatype="html">
+        <source>API Published Successfully</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89f33bfe3aa9109b33bbd20df2259afe0687d192" datatype="html">
+        <source>Your API </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c29596abaee3deb64215e9a76e78149a6daf0873" datatype="html">
+        <source> has been successfully published to </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36a6740967b77eb15ea2ab3f24b5041a9e4d8200" datatype="html">
+        <source>.  No additional
+                            steps need to be taken.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e6c975ebea8b5f8b120905ca7acf9f8edf59d8e" datatype="html">
+        <source>OK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="fa84d0c5f3a15ac59d60dc2433d2c7c7b3838dd1" datatype="html">
         <source>Download API Specification</source>
         <context-group purpose="location">
@@ -821,6 +972,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
           <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0dc2e6fb6d0244d5024e73ede409a45d5b0c8a64" datatype="html">
@@ -895,12 +1050,20 @@
           <context context-type="sourcefile">app/pages/apis/{apiId}/copy/copy.page.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="6d014524ab54d35d047ae0dec831a1eb2d17fa0a" datatype="html">
         <source> are required.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/copy/copy.page.html</context>
           <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="87c8204be69880fc4648cdf614f6e237e7af209d" datatype="html">
