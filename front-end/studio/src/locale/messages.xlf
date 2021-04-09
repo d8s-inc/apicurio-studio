@@ -317,6 +317,10 @@
           <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
@@ -392,13 +396,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
           <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
-        <source>Cancel</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
-          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
@@ -622,6 +619,10 @@
           <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="467bff8643ae9525e0477374f132a6b19bedbfd5" datatype="html">
         <source>Template</source>
@@ -842,12 +843,6 @@
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="34667ccb17afe9f6c4bcb950093b10ca4c1689bf" datatype="html">
-        <source> page.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">65</context>
@@ -866,12 +861,20 @@
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="b201ba08c511a29f278d7fce7c7a59fd5347a47c" datatype="html">
         <source>Cannot Publish API</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">222</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0593502e211c3f291d6d51668d0b965146d37dcf" datatype="html">
@@ -894,13 +897,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">86</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a1b3672399ea602917bb186c947e3fe91f48174c" datatype="html">
-        <source>Commit Message</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
-          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="66b70ce9f5f45fece9d27e49882e937696825683" datatype="html">
@@ -953,6 +949,13 @@
           <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="d94c41bfd49c2dfbb550beb384ab990dde8cb146" datatype="html">
+        <source>Experimental </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="fa84d0c5f3a15ac59d60dc2433d2c7c7b3838dd1" datatype="html">
         <source>Download API Specification</source>
         <context-group purpose="location">
@@ -983,13 +986,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
           <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dc75033a5238fdc4f462212c847a45ba8018a3fd" datatype="html">
-        <source>Download</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
-          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
@@ -1138,6 +1134,18 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
           <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">288</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">294</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0a82dd1033813aa3b83a568d0519821699c0f9fb" datatype="html">
@@ -1340,6 +1348,504 @@
           <context context-type="linenumber">266</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="752b854803bc08425dbf3b5f5b13c92353c97d1d" datatype="html">
+        <source>Project Generation Wizard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f3e86e5e9e2eabd635e10a6db769bc0403eb85d" datatype="html">
+        <source>1</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8db0b881db4eef8df2a5bb757b85ff91b909df83" datatype="html">
+        <source>Select Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="446c5c1e01eb5746070f8fd6e6647013366baa03" datatype="html">
+        <source>2</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1da848061c70efe75ca64f167ad95803472b5a0d" datatype="html">
+        <source>Configure Project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a98b6fdf6513b598738f4d70bd87a696690504fa" datatype="html">
+        <source>3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2913dbeaaf4a13722357426078f1b3461adabc5" datatype="html">
+        <source>Choose Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="704c876dd7b54a2c5a98342ae7c9382863db076c" datatype="html">
+        <source>4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a0723e1568abffd0d219eeba7b0ba52f5f7ed71" datatype="html">
+        <source>Push to Git</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b49b4bed6fc756508c634051c553cfa0db3d145" datatype="html">
+        <source>Loading Wizard Data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a25af7c83f94c3eb0e5febd466c247f4c3f128d4" datatype="html">
+        <source>Loading information needed by the Project Generation Wizard, please wait...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a002d9922916ae7cec7b5061ed1eaac2c1bfd197" datatype="html">
+        <source>Bootstrap a new implementation project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9710745d4e9a3c09254c33a26638d7b74357d332" datatype="html">
+        <source>
+                                                Create a brand new project from this API.  All boilerplate files will be generated.  Use
+                                                this option if this is the first time you&apos;ve generated a project for this API.
+                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a4bb63f2e4828a1c5aa4af451c301129d95a52a" datatype="html">
+        <source>Update an existing implementation project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68a104c277469719b420d2f27b56d027b00cf4ef" datatype="html">
+        <source>
+                                                Update an existing implementation project that was previously generated using this API
+                                                Contract.  Generates a subset of the resources for the project (excludes some boilerplate).
+                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1799bc2475965707fd96dfc9a0414375b4af26f8" datatype="html">
+        <source>Skip maven project generation (generate code only)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d9e2fc8da0d2dfc5636b4c99c2b31466abbe1b4" datatype="html">
+        <source>Make the project Reactive (i.e. use CompletionStage&lt;T&gt; responses) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31597114989f6aec498879e4fd21643b1c380118" datatype="html">
+        <source>Group ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40ca77187946fab59487e1aa34ba14732851f83d" datatype="html">
+        <source>org.example.api</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7b9b86ed5d6bb21a4c4c230d01624ac79e4ea1b" datatype="html">
+        <source>Group ID is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="151cab3f3bc9cf57e8b28cf9566473d542c31b5e" datatype="html">
+        <source>Please enter a valid Maven groupId.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca6562b2a0ae0224e6021e586063bb5576bb0589" datatype="html">
+        <source>Artifact ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57f4a064b82129c578efdd26d5d20239451e99e3" datatype="html">
+        <source>my-api</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="66477b6ee23f5f4d53021694b68193f8588acb9d" datatype="html">
+        <source>Artifact ID is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8cd7a0c4c3a0bb3a440c6f68483eb5b3536dc3a" datatype="html">
+        <source>Please enter a valid Maven artifactId.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bf24e8e86c8dd239fbfd0a1c31ee1648c964bbe" datatype="html">
+        <source>Java Package</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae7936196bfcbd13caaf82ebebf599588d1b7e06" datatype="html">
+        <source>Java package is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfec9f1ff43e3e04cf524f27521e3c23e09f1e33" datatype="html">
+        <source>Please enter a valid Java package name.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="044fb86f7c0c9268b834f408da42e2b1f1a39ba4" datatype="html">
+        <source>Download result as ZIP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ba0144f3fa3af5d79dde12f496cb924a6cdb980" datatype="html">
+        <source>
+                                                Download the resulting generated project as a ZIP file containing all of the
+                                                generated resources.
+                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6130ea037262136948efdf471f29c6c3aebbf108" datatype="html">
+        <source>Publish result to source control</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="924267f6faf4cde6ea4e1c0d142f99378cb35491" datatype="html">
+        <source>
+                                                Publish the resulting generated project to a source control system (e.g. GitHub).
+                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c1ee683ce858cd3272da89e7ffc481951a052c8" datatype="html">
+        <source> You haven&apos;t linked your Apicurio account to a source
+                                                control system.  Do this first from the appropriate </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">222</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34667ccb17afe9f6c4bcb950093b10ca4c1689bf" datatype="html">
+        <source> page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>        
+      </trans-unit>
+      <trans-unit id="f17b4dc29f2d56fbb2ceba84ab5a3af98c1de128" datatype="html">
+        <source>Not yet implemented</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db5604f3a4a8edc2e0773336de86eb834382dedd" datatype="html">
+        <source> Apologies, we have not </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b36315de37be35f1bee43d7728904a434bc5eeb3" datatype="html">
+        <source>yet</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ca0b99164312f9630d76669b48ce78a9457e70c" datatype="html">
+        <source> implemented publishing
+                                        a generated code project to GitLab.  Check back later!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50fed0a46193a296b8c62629c9efe202824813f1" datatype="html">
+        <source> implemented publishing
+                                        a generated code project to Bitbucket.  Check back later!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed31c09fd77c36238c13d83635f3fe5294c733d2" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="238876e035b14677843bdec2da1275b5ede98664" datatype="html">
+        <source>/path/to/project-root</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0009dd3d3ae85862fafc7111aa07e88a7e32f1b" datatype="html">
+        <source>Location is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1b3672399ea602917bb186c947e3fe91f48174c" datatype="html">
+        <source>Commit Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">263</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7ba5500ed231096ee340964a326121dcfb947af" datatype="html">
+        <source>Project Generation in progress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59a093b9289798293cea4f90de663f513cd2017c" datatype="html">
+        <source>Please wait while we generate a project from your OpenAPI definition.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">278</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40be2245aca39e1ce3ade862ef87374e1bf59bcf" datatype="html">
+        <source>Project was successfully generated</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9282db364443b157996de64a1df202381641386a" datatype="html">
+        <source>Alright!  We&apos;ve successfully generated a project from your OpenAPI definition.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">287</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f5c9957d27e3f845d779a2fe2c9dadc012dbf2c" datatype="html">
+        <source>If your ZIP download does not start within a few seconds, please click </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">288</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c16bfed067e548bd13c17557f782c94347bebbe7" datatype="html">
+        <source> below.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">288</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91cbb2c6afcd674d81d5de5eaf04c583a5da98fe" datatype="html">
+        <source> Your generated code project has been committed to Git and a pull/merge request has been created.  Click
+                                            the </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4c37f3821ee92fc47383e1cd2bc3144ab8090d7" datatype="html">
+        <source>View Pull Request</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">290</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">299</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67ae655ae6c232d6c1ffca29c92753f03b399516" datatype="html">
+        <source> button below to review and merge the changes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b5343ac6231ca637aa39bd082c56b6762083e6b9" datatype="html">
+        <source>
+                                            Uh oh!  It seems we have encountered an error while trying to generate an
+                                            implementation project from your OpenAPI definition.  Perhaps close the
+                                            wizard and try again...
+                                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">315</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">329</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
+        <source>Back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b258b258b4cc475ceb2871305b61756b0134f4a" datatype="html">
+        <source>Generate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">343</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="89e084db691c044b194ebb1cd1a1756b26bd2249" datatype="html">
         <source>Sharing Documentation</source>
         <context-group purpose="location">
@@ -1399,6 +1905,10 @@
       <trans-unit id="f4e529ae5ffd73001d1ff4bbdeeb0a72e342e5c8" datatype="html">
         <source>Close</source>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">348</context>
+        </context-group>
+                <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/_components/sharing.dialog.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
