@@ -395,6 +395,87 @@
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="708b34d02bbbd2d46d23a08a42b0796f7db85419" datatype="html">
+        <source>Invitation to Collaborate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="232b03205bfb3e86766affc000463cc9547ca946" datatype="html">
+        <source>Collaborate on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="994707e61c7184f9f593287d64fc70d78dd63c79" datatype="html">
+        <source>
+                    This link is unique to this invitation and so can only be used once for another user to join
+                    you on this API as a collaborator.  Copy and share this link with just one other user - if you
+                    would like to collaborate with additional users you must create more invitations.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62bcd646f5961334ffa12510dd2f90d2c686f985" datatype="html">
+        <source>Collaboration allows:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9faa1c938486256023e03b36c1c474c853e8ac9a" datatype="html">
+        <source>Editing the API Content (at the same time!)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aaecf3a947df9e5ad27d15b163bb7a0149662f2f" datatype="html">
+        <source>Downloading the API</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="21a3198ca66b215220d0500a0310f21ea0cfb0c0" datatype="html">
+        <source>Publishing the API</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cee44f03a07fd20b201f3cd2b6ca7bc5286e2ac3" datatype="html">
+        <source>Generating an Implementation Project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e38cfc71113dbc44243e599d87e3d01941f1dcde" datatype="html">
+        <source>Invitation Link</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1adb74bed07dd599acdbafafbf4c1b5a3f70e0af" datatype="html">
+        <source>Copy link to clipboard.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae0660991fc46994ecc337130107df7f70d91791" datatype="html">
+        <source>URL successfully copied to the clipboard!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="a6ecf76f074e2098ee024b6c2586a0475a2d6dd3" datatype="html">
         <source>Confirm Delete</source>
         <context-group purpose="location">
@@ -2119,6 +2200,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/_components/download.dialog.html</context>
           <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/_components/invitation.component.html</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
     </body>
