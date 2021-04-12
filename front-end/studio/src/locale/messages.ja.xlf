@@ -2,6 +2,106 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="ccec098221e7c61f303d5b8ccd2f0a7379ed720d" datatype="html">
+        <source>1. Enter Basic Information</source>
+        <target>1. Enter Basic Information(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f507cdfb390ffe66e682166b5e0926e2cdcb841" datatype="html">
+        <source>
+                    Enter a name and description for the new response.
+                </source>
+        <target>
+                    Enter a name and description for the new response.(TBD)
+                </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target>Name(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96320d5f4d0041a87abe3df2e57c90040bb516c8" datatype="html">
+        <source>Enter a unique response name.</source>
+        <target>Enter a unique response name.(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="541087322c34e8b26954fd67ff4fc80d1a6c1b33" datatype="html">
+        <source>Name is required.</source>
+        <target>Name is required.(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4944bc0780da6cd442278b7e71d7b205d6bca5a2" datatype="html">
+        <source>Enter a valid name (only alpha-numeric characters are allowed - no whitespace).</source>
+        <target>Enter a valid name (only alpha-numeric characters are allowed - no whitespace).(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7085bb04fc09ea3a7ada7ef51daf84028eed7919" datatype="html">
+        <source>Response named </source>
+        <target>Response named (TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39b0916756ca50ed00ce53dfaaa979fedcf5da83" datatype="html">
+        <source> already exists.</source>
+        <target> already exists.(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Description(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73caa4b9ee8b0307f96fbd5946712e0c240074af" datatype="html">
+        <source>Define a New Response</source>
+        <target>Define a New Response(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/editors/response-editor.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="e03b6cba7c88318e4f91a60a079870e8fba4bee7" datatype="html">
         <source>Link</source>
         <target>Link(TBD)</target>
@@ -374,12 +474,12 @@
           <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
-          <context context-type="linenumber">223</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/_components/generate-project.wizard.html</context>
+          <context context-type="linenumber">223</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6282d921b930bd0457c570618a63ac91b63cdc5f" datatype="html">
@@ -488,18 +588,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
           <context context-type="linenumber">106</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
-        <source>Name</source>
-        <target>Name(TBD)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
-          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7b2c55bedfd9144783a1d444834472c43817b687" datatype="html">
@@ -695,22 +783,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
           <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="541087322c34e8b26954fd67ff4fc80d1a6c1b33" datatype="html">
-        <source>Name is required.</source>
-        <target>Name is required.(TBD)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
-        <source>Description</source>
-        <target>Description(TBD)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
-          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3c1b41170c3ebff8a1b3d0bbb7014808e5d19184" datatype="html">
@@ -987,6 +1059,14 @@
       <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
         <source> Loading API information...</source>
         <target> Loading API information...(TBD)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/copy/copy.page.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">20</context>
