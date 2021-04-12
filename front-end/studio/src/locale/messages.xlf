@@ -301,6 +301,10 @@
           <context context-type="sourcefile">app/pages/apis/import/import.page.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
@@ -547,6 +551,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/apis.page.html</context>
           <context context-type="linenumber">114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">186</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
@@ -810,6 +818,202 @@
           <context context-type="linenumber">116</context>
         </context-group>
         <note priority="1" from="description">No description available.</note>
+      </trans-unit>
+      <trans-unit id="3630022091d1044a60591f58536cfff54b241eaa" datatype="html">
+        <source>Collaboration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7d79698e82d0ee1da655966cc0a4e3868b98128" datatype="html">
+        <source> Loading collaborator information...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="339b024e329c7fccab49a3e6c7692e69f6bf1ce7" datatype="html">
+        <source>Collaborators</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f609e01d9849c915032679ddaf384e5b50339d3" datatype="html">
+        <source>No invitations have been accepted to collaborate on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6a76030c990933529a5355b89fee4701d2d7d76a" datatype="html">
+        <source>
+                                        You can resend an outstanding invitation link by clicking the invitation and copying the link.
+                                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa058a811eca3ce96e782f8648cdb58e47289f3d" datatype="html">
+        <source>
+                                        To send new invitations, click the Invite button.
+                                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b60bb02240bcf8ce139ba13c4ab34b510b6825fc" datatype="html">
+        <source>Invite a Collaborator</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3bd1f445cf6f4589d507a6b2524551f052e423b4" datatype="html">
+        <source> Loading invitations...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75cb82abf253b66d6f12bbf96bfef47bc355e30e" datatype="html">
+        <source>Invitations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5c56a1acab69857cc34f3a2b44646b81043593a" datatype="html">
+        <source>No Invitations Found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc2dcac2e6b1b556ff58d3dd18deff94225f2389" datatype="html">
+        <source>Creating invitation, please wait...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba564b606e3feef901a33ae7c116eff810f66e6f" datatype="html">
+        <source>Invitation creation by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc958efde0816cbce4dbe0b6c4ce19d3ce54f5d5" datatype="html">
+        <source>Rejecting invitation, please wait...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74a722af364dd5ef256c1f9743b6c5d4710524c7" datatype="html">
+        <source>Invitation previously created by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b33188b3064fc3fc11223d5e8e5095bea6c7b29e" datatype="html">
+        <source>Created on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7026bd1cbbf23864700f501e89df017d0b8d755d" datatype="html">
+        <source>by</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9282d209a17e3bf163e62bd68e9f1f4e15f70d0b" datatype="html">
+        <source>Pending (click above to copy the link and send it to someone!)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3ecbba111d98aab47cf187cb5f7a86e4669b510" datatype="html">
+        <source> : Accepted on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d91d835e9a8d0d007247c95d1809eec2020a618" datatype="html">
+        <source>Invitation created on </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6a70df99dbc43a15b7b3d715e640e0c2181877c" datatype="html">
+        <source>Rejected by </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48b29674ac5968ecb463d16ae19b5cfb034df50f" datatype="html">
+        <source>on</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4826ae31928706b13985c42152ffc80f83a01abc" datatype="html">
+        <source>Do you really want to remove this collaborator?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4938d3f0a5f47a6744da20b4f3f2898c3c8c1be" datatype="html">
+        <source>
+            This will make it so the user can no longer access this API design.  If you wish to collaborate with the user again
+            in the future you will need to re-invite them.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="15afd496734247a508d2762ab7bfdbb4e59c04c1" datatype="html">
         <source> Loading API information...</source>
