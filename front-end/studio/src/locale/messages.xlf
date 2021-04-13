@@ -2,6 +2,62 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="ff8aa2fb4724311bcc5857672bbcffcca729ede5" datatype="html">
+        <source>Add Path</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d8a9fc6414c94f86d93be443fc9af5a74700aa5" datatype="html">
+        <source>Enter a new resource path below and then click Add.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="766c66ad5cc981c531aaf3fe3a2a7a346ddc8d83" datatype="html">
+        <source>Path</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2adfe88d02241702fc565b090737c51b7e186775" datatype="html">
+        <source>Enter a Path</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3028702fadfe8dbf8163065b12ffb50901632082" datatype="html">
+        <source>Path already exists.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e41080fd3f614ed02a96be13d125f6e597b9664a" datatype="html">
+        <source>Enter a valid path.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aff106648b9b57633f784fda85155ad8d7c695af" datatype="html">
+        <source>Path is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="e03b6cba7c88318e4f91a60a079870e8fba4bee7" datatype="html">
         <source>Link</source>
         <context-group purpose="location">
@@ -1339,6 +1395,10 @@
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">106</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group
       </trans-unit>
       <trans-unit id="6d014524ab54d35d047ae0dec831a1eb2d17fa0a" datatype="html">
         <source> are required.</source>
@@ -1349,6 +1409,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/publish/publish.page.html</context>
           <context context-type="linenumber">106</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="87c8204be69880fc4648cdf614f6e237e7af209d" datatype="html">
@@ -2112,6 +2176,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/dialogs/confirm-delete.component.html</context>
           <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
