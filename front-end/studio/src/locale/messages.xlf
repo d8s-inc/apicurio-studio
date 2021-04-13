@@ -2,6 +2,27 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="04208dc2ead28020904da82c058466d1c034ffa5" datatype="html">
+        <source>Rename Path</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0e7ae6a3c8040e65350344fe5729d136bdb07e3" datatype="html">
+        <source>Enter a new path below and then click Rename.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5acab21e38e840a0f5752f6b6322800550ad0f04" datatype="html">
+        <source>Enter a Path Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="ff8aa2fb4724311bcc5857672bbcffcca729ede5" datatype="html">
         <source>Add Path</source>
         <context-group purpose="location">
@@ -19,6 +40,10 @@
       <trans-unit id="766c66ad5cc981c531aaf3fe3a2a7a346ddc8d83" datatype="html">
         <source>Path</source>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
@@ -33,6 +58,10 @@
       <trans-unit id="3028702fadfe8dbf8163065b12ffb50901632082" datatype="html">
         <source>Path already exists.</source>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
@@ -40,8 +69,40 @@
       <trans-unit id="e41080fd3f614ed02a96be13d125f6e597b9664a" datatype="html">
         <source>Enter a valid path.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="541087322c34e8b26954fd67ff4fc80d1a6c1b33" datatype="html">
+        <source>Name is required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c099e668a5a18fb05a1c7232150bc064e8612337" datatype="html">
+        <source>Also rename </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="359d81e2508350bce7bc69170224658252990eb6" datatype="html">
+        <source> sub-path(s).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e26f9cf3666aace4e524b1505c9795d76d87738d" datatype="html">
+        <source>Rename</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aff106648b9b57633f784fda85155ad8d7c695af" datatype="html">
@@ -737,13 +798,6 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="541087322c34e8b26954fd67ff4fc80d1a6c1b33" datatype="html">
-        <source>Name is required.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/pages/apis/create/_components/create-form.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
         <source>Description</source>
         <context-group purpose="location">
@@ -961,6 +1015,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/collaboration/api-collaboration.page.html</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/api-detail.page.html</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7d79698e82d0ee1da655966cc0a4e3868b98128" datatype="html">
@@ -1398,7 +1456,11 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
           <context context-type="linenumber">29</context>
-        </context-group
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="6d014524ab54d35d047ae0dec831a1eb2d17fa0a" datatype="html">
         <source> are required.</source>
@@ -1413,6 +1475,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
           <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="87c8204be69880fc4648cdf614f6e237e7af209d" datatype="html">
@@ -2180,6 +2246,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/add-path.component.html</context>
           <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/apis/{apiId}/editor/_components/dialogs/rename-path.component.html</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cda31dbd724cf5f4fa7a4274d9120651490c8a8c" datatype="html">
